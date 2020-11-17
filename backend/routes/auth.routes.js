@@ -55,8 +55,8 @@ var upload = multer({
 var  hbs = require('nodemailer-express-handlebars'),
 
 //email password are not set
-  email = 'savaliyavivek00@gmail.com', 
-  pass = 'vivek@123'
+  email = 'your email id', 
+  pass = 'password'
   nodemailer = require('nodemailer');
 
 var smtpTransport = nodemailer.createTransport({
